@@ -6,12 +6,13 @@
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300, 300italic,400" rel="stylesheet">
         <title>Omnifood</title>
     </head>
-    <body>
-        <header id="home">
+    <body id="main">
+        <header id="home" data-stellar-background-ratio="0.5">
             <nav>
                 <div class="row">
                     <img src="resources/css/img/logo-white.png" alt="Omnifood logo" class="logo">
@@ -30,16 +31,16 @@
                 <a class="btn btn-ghost js--scroll-to-start" href="#">Show me more</a>
             </div>
         </header>
-        
+
         <section class="section-features js--section-features" id="features">
             <div class="row">
                 <h2>Get food fast &mdash; not fast food</h2>
                 <p class="long-copy">
                     Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!
                 </p>
-            </div>         
-            <div class="row">
-                <div class="col span-1-of-4 box">   
+            </div>
+            <div class="row js--wp-1">
+                <div class="col span-1-of-4 box">
                     <i class="ion-ios-infinite-outline icon-big"></i>
                     <h3>Up to 365 days/year</h3>
                     <p>
@@ -66,10 +67,10 @@
                     <p>
                         We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you!
                     </p>
-                </div>            
-            </div>          
+                </div>
+            </div>
         </section>
-        
+
         <section class="section-meals">
             <ul class="meals-showcase clearfix">
                 <li>
@@ -81,7 +82,7 @@
                     <figure class="meal-photo">
                         <img src="resources/img/2.jpg" alt="Simple italian pizza with cherry tomatoes">
                     </figure>
-                </li>          
+                </li>
                 <li>
                     <figure class="meal-photo">
                         <img src="resources/img/3.jpg" alt="Chicken breast steak with vegetables">
@@ -103,7 +104,7 @@
                     <figure class="meal-photo">
                         <img src="resources/img/6.jpg" alt="Healthy baguette with egg and vegetables">
                     </figure>
-                </li>          
+                </li>
                 <li>
                     <figure class="meal-photo">
                         <img src="resources/img/7.jpg" alt="Burger with cheddar and bacon">
@@ -116,16 +117,16 @@
                 </li>
             </ul>
         </section>
-        
+
         <section class="section-steps" id="works">
             <div class="row">
                 <h2>We're currently in these cities</h2>
             </div>
             <div class="row">
                 <div class="col span-1-of-2 steps-box">
-                    <img src="resources/img/app-iPhone.png" alt="Omnifood app for iPhone" class="app-screen">
+                    <img src="resources/img/app-iPhone.png" alt="Omnifood app for iPhone" class="app-screen js--wp-2">
                 </div>
-                
+
                 <div class="col span-1-of-2 steps-box">
                     <div class="works-step">
                         <div>1</div>
@@ -139,18 +140,18 @@
                         <div>3</div>
                         <p>Enjoy your meal after less than 20 minutes. See you the next time!</p>
                     </div>
-                    
+
                     <a href="#" class="btn-app"><img src="resources/img/download-app.svg" alt="App Store Button"></a>
                     <a href="#" class="btn-app"><img src="resources/img/download-app-android.png" alt="Play Store Button"></a>
                 </div>
             </div>
         </section>
-        
+
         <section class="section-cities" id="cities">
              <div class="row">
                 <h2>We're currently in these cities</h2>
             </div>
-            <div class="row">
+            <div class="row js--wp-3">
                 <div class="col span-1-of-4 box">
                     <img src="resources/img/lisbon-3.jpg" alt="Lisbon">
                     <h3>Lisbon</h3>
@@ -195,7 +196,7 @@
                         110+ top chefs
                     </div>
                     <div class="city-feature">
-                        <i class="ion-social-twitter icon-small"></i>   
+                        <i class="ion-social-twitter icon-small"></i>
                         <a href="#">@omnifood_berlin</a>
                     </div>
                 </div>
@@ -218,8 +219,8 @@
                 </div>
             </div>
         </section>
-        
-        <section class="section-testimonials">
+
+        <section class="section-testimonials" data-stellar-background-ratio="0.5">
              <div class="row">
                 <h2>Our customers can't live without us</h2>
             </div>
@@ -244,14 +245,14 @@
                 </div>
             </div>
         </section>
-        
+
         <section class="section-plans js--section-plans" id="plans">
             <div class="row">
                 <h2>Start eating healthy today</h2>
             </div>
             <div class="row">
                 <div class="col span-1-of-3">
-                    <div class="plan-box">
+                    <div class="plan-box js--wp-4">
                         <div>
                             <h3>Premium</h3>
                             <p class="plan-price">$399 <span>/ month</span></p>
@@ -311,11 +312,11 @@
                         <div>
                             <a href="#" class="btn btn-ghost">Sign up now</a>
                         </div>
-                    </div> 
+                    </div>
                 </div>
             </div>
         </section>
-        
+
         <section class="section-form">
              <div class="row">
                 <h2>We're happy to hear from you</h2>
@@ -328,7 +329,7 @@
                         </div>
                         <div class="col span-2-of-3">
                             <input type="text" name="name" id="name" placeholder="Your name" required>
-                        </div>                    
+                        </div>
                     </div>
                     <div class="row">
                         <div class="col span-1-of-3">
@@ -336,7 +337,7 @@
                         </div>
                         <div class="col span-2-of-3">
                             <input type="email" name="email" id="email" placeholder="Your email" required>
-                        </div>                    
+                        </div>
                     </div>
                     <div class="row">
                         <div class="col span-1-of-3">
@@ -348,8 +349,8 @@
                                 <option value="search">Search engine</option>
                                 <option value="add">Add</option>
                                 <option value="other">Other</option>
-                            </select>   
-                        </div>                    
+                            </select>
+                        </div>
                     </div>
                     <div class="row">
                         <div class="col span-1-of-3">
@@ -357,7 +358,7 @@
                         </div>
                         <div class="col span-2-of-3">
                             <input type="checkbox" name="news" id="news" checked>Yes, please
-                        </div>                    
+                        </div>
                     </div>
                     <div class="row">
                         <div class="col span-1-of-3">
@@ -365,7 +366,7 @@
                         </div>
                         <div class="col span-2-of-3">
                             <textarea name="message" placeholder="Your message"></textarea>
-                        </div>                    
+                        </div>
                     </div>
                     <div class="row">
                         <div class="col span-1-of-3">
@@ -373,12 +374,12 @@
                         </div>
                         <div class="col span-2-of-3">
                             <input type="submit" value="Send it!!">
-                        </div>                    
+                        </div>
                     </div>
                 </form>
             </div>
         </section>
-        
+
         <footer>
             <div class="row">
                 <div class="col span-1-of-2">
@@ -388,7 +389,7 @@
                         <li><a href="#">Press</a></li>
                         <li><a href="#">iOS App</a></li>
                         <li><a href="#">Android App</a></li>
-                    </ul> 
+                    </ul>
                 </div>
                 <div class="col span-1-of-2">
                     <ul  class="social-links">
@@ -396,22 +397,23 @@
                         <li><a href="#"><i class="ion-social-twitter"></i></a></li>
                         <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
                         <li><a href="#"><i class="ion-social-instagram"></i></a></li>
-                    </ul> 
+                    </ul>
                 </div>
             </div>
             <div class="row">
-                <p> 
+                <p>
                     Copyright &copy 2017 by Omnifood. All rights reserved.
                 </p>
-            </div>  
+            </div>
         </footer>
-        
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="vendors/js/jquery.waypoints.min.js"></script>
         <script src="resources/js/script.js"></script>
-        
+        <script src="resources/js/stellar.min.js"></script>
+
     </body>
-    
+
 </html>
 
 <!--
